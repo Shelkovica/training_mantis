@@ -24,7 +24,7 @@ class Application:
         self.james = JamesHelper(self)
         self.mail = MailHelper(self)
         self.signup = SignupHelper(self)
-        self.soap = SoapHelper
+        self.soap = SoapHelper(self)
        # self.username = config['web']['password']
        # self.password = config['web']['password']
 
